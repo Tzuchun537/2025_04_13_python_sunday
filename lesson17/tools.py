@@ -5,7 +5,7 @@ PI:float = 3.1415926
 def func1(a:int, b:int) -> int:
     return a + b
 
-@dataclass
+@dataclass                      #註冊我有一個CLASS
 class Student:
     name:str
     chinese:int
