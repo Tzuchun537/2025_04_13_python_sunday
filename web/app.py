@@ -1,3 +1,7 @@
-#環境變數和密碼
-Gemini_API_KEY = "your_api_key"
-Gemini_API_SECRET = "your_api_secret"
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def hello_world():
+    return '<H1>Hello, 好不好!</H1>'
